@@ -1,6 +1,6 @@
 import { JgnextAssistant } from "@/components/jgnext-assistant";
-import { A11yPolish } from '@/components/a11y-polish';
 import { SiteFooter } from '@/components/site-footer';
+import { A11yPolish } from '@/components/a11y-polish';
 import { PageBackdrop } from '@/components/page-backdrop';
 import { AdminDataPill } from '@/components/admin-data-pill';
 import { Suspense } from 'react';
@@ -18,7 +18,7 @@ const display = Space_Grotesk({ subsets: ["latin"], weight: ["400","700"], varia
 
 export const metadata: Metadata = {
   title: "Estúdio Lumière",
-  description: "Plataforma premium de agendamento e gestão para estúdio de pilates e yoga, com tom sereno e acolhedor.",
+  description: "Plataforma premium de agendamento e gestão para estúdio de pilates e yoga, com tom sereno e acolhedor. [REVISÃO PEDIDA PELO CLIENTE]: [Correção automática ",
 };
 
 export const viewport = { width: 'device-width', initialScale: 1, maximumScale: 5 };

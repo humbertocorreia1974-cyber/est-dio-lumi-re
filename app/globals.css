@@ -74,7 +74,7 @@ body:not(:has([data-landing])) h1{font-size:clamp(2.4rem,5vw,4rem);line-height:1
 body:not(:has([data-landing])) [class*="rounded"]{border-radius:2px!important}
 body:not(:has([data-landing])) [class*="shadow"]{box-shadow:none!important}
 body:not(:has([data-landing])) [class*="border"]{border-color:hsl(var(--fg)/.18)}
-body:not(:has([data-landing])) button,body:not(:has([data-landing])) a[class*="bg-brand"],body:not(:has([data-landing])) a[class*="bg-accent"]{text-transform:uppercase;letter-spacing:.08em;font-size:.78rem;font-weight:600;border-radius:0!important}
+body:not(:has([data-landing])) button,body:not(:has([data-landing])) a[class*="bg-brand"],body:not(:has([data-landing])) a[class*="bg-accent"]{text-transform:uppercase;letter-spacing:.08em;font-size:.8125rem;font-weight:600;border-radius:0!important}
 body:not(:has([data-landing])) hr{border-color:hsl(var(--fg))}
 
 

@@ -27,7 +27,8 @@ export function A11yPolish() {
     };
     run();
     const t = window.setTimeout(run, 900); // telas que montam o formulário/título depois
-    return () => window.clearTimeout(t);
+    const t2 = window.setTimeout(() => { const mine = document.querySelector('[data-polish-h1]'); if (mine && document.querySelectorAll('h1').length > 1) mine.remove(); }, 2500);
+    return () => { window.clearTimeout(t); window.clearTimeout(t2); };
   }, [pathname]);
   return null;
 }
